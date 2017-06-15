@@ -16,6 +16,8 @@
 		F466795A1EF281C4000EF804 /* SNRU_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F46679591EF281C4000EF804 /* SNRU_2.jpg */; };
 		F466795C1EF285A7000EF804 /* BGSNRU.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F466795B1EF285A7000EF804 /* BGSNRU.jpg */; };
 		F466795E1EF28633000EF804 /* ic_add_box.png in Resources */ = {isa = PBXBuildFile; fileRef = F466795D1EF28633000EF804 /* ic_add_box.png */; };
+		F46679601EF2877B000EF804 /* iphon6bg.png in Resources */ = {isa = PBXBuildFile; fileRef = F466795F1EF2877B000EF804 /* iphon6bg.png */; };
+		F46679621EF28887000EF804 /* bbb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F46679611EF28887000EF804 /* bbb.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		F46679591EF281C4000EF804 /* SNRU_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = SNRU_2.jpg; path = ../../../../Desktop/SNRU_2.jpg; sourceTree = "<group>"; };
 		F466795B1EF285A7000EF804 /* BGSNRU.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BGSNRU.jpg; path = ../../../../Desktop/BGSNRU.jpg; sourceTree = "<group>"; };
 		F466795D1EF28633000EF804 /* ic_add_box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_add_box.png; path = ../../../../Desktop/ic_add_box.png; sourceTree = "<group>"; };
+		F466795F1EF2877B000EF804 /* iphon6bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iphon6bg.png; path = ../../../../Desktop/iphon6bg.png; sourceTree = "<group>"; };
+		F46679611EF28887000EF804 /* bbb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bbb.jpg; path = ../../../../Desktop/bbb.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 		F46679441EF25CFA000EF804 /* My Service */ = {
 			isa = PBXGroup;
 			children = (
+				F46679611EF28887000EF804 /* bbb.jpg */,
+				F466795F1EF2877B000EF804 /* iphon6bg.png */,
 				F466795D1EF28633000EF804 /* ic_add_box.png */,
 				F466795B1EF285A7000EF804 /* BGSNRU.jpg */,
 				F46679591EF281C4000EF804 /* SNRU_2.jpg */,
@@ -139,7 +145,9 @@
 				F466794D1EF25CFA000EF804 /* Assets.xcassets in Resources */,
 				F466795A1EF281C4000EF804 /* SNRU_2.jpg in Resources */,
 				F466795E1EF28633000EF804 /* ic_add_box.png in Resources */,
+				F46679621EF28887000EF804 /* bbb.jpg in Resources */,
 				F466794B1EF25CFA000EF804 /* Main.storyboard in Resources */,
+				F46679601EF2877B000EF804 /* iphon6bg.png in Resources */,
 				F466795C1EF285A7000EF804 /* BGSNRU.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
