@@ -21,7 +21,7 @@ class ViewController: UIViewController {
     super.viewDidLoad()
         
         //Process Connection Http
-    let urlPHP = "http://swiftcodingthai.com"
+    let urlPHP = "http://androidthai.in.th"
         //Change String to url String
     let myURL = URL(string: urlPHP)
     
@@ -32,7 +32,7 @@ class ViewController: UIViewController {
             
             if error != nil {
             
-            print("Error ==>\(error))")
+            print("Error ==>\(error)")
             
             }
             else{

@@ -12,6 +12,10 @@
 		F466794B1EF25CFA000EF804 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F46679491EF25CFA000EF804 /* Main.storyboard */; };
 		F466794D1EF25CFA000EF804 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F466794C1EF25CFA000EF804 /* Assets.xcassets */; };
 		F46679501EF25CFA000EF804 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F466794E1EF25CFA000EF804 /* LaunchScreen.storyboard */; };
+		F46679581EF27DFD000EF804 /* AddnewuserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46679571EF27DFD000EF804 /* AddnewuserViewController.swift */; };
+		F466795A1EF281C4000EF804 /* SNRU_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F46679591EF281C4000EF804 /* SNRU_2.jpg */; };
+		F466795C1EF285A7000EF804 /* BGSNRU.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F466795B1EF285A7000EF804 /* BGSNRU.jpg */; };
+		F466795E1EF28633000EF804 /* ic_add_box.png in Resources */ = {isa = PBXBuildFile; fileRef = F466795D1EF28633000EF804 /* ic_add_box.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		F466794C1EF25CFA000EF804 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F466794F1EF25CFA000EF804 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F46679511EF25CFA000EF804 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F46679571EF27DFD000EF804 /* AddnewuserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddnewuserViewController.swift; sourceTree = "<group>"; };
+		F46679591EF281C4000EF804 /* SNRU_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = SNRU_2.jpg; path = ../../../../Desktop/SNRU_2.jpg; sourceTree = "<group>"; };
+		F466795B1EF285A7000EF804 /* BGSNRU.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BGSNRU.jpg; path = ../../../../Desktop/BGSNRU.jpg; sourceTree = "<group>"; };
+		F466795D1EF28633000EF804 /* ic_add_box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_add_box.png; path = ../../../../Desktop/ic_add_box.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +62,13 @@
 		F46679441EF25CFA000EF804 /* My Service */ = {
 			isa = PBXGroup;
 			children = (
+				F466795D1EF28633000EF804 /* ic_add_box.png */,
+				F466795B1EF285A7000EF804 /* BGSNRU.jpg */,
+				F46679591EF281C4000EF804 /* SNRU_2.jpg */,
 				F46679451EF25CFA000EF804 /* AppDelegate.swift */,
 				F46679471EF25CFA000EF804 /* ViewController.swift */,
 				F46679491EF25CFA000EF804 /* Main.storyboard */,
+				F46679571EF27DFD000EF804 /* AddnewuserViewController.swift */,
 				F466794C1EF25CFA000EF804 /* Assets.xcassets */,
 				F466794E1EF25CFA000EF804 /* LaunchScreen.storyboard */,
 				F46679511EF25CFA000EF804 /* Info.plist */,
@@ -125,7 +137,10 @@
 			files = (
 				F46679501EF25CFA000EF804 /* LaunchScreen.storyboard in Resources */,
 				F466794D1EF25CFA000EF804 /* Assets.xcassets in Resources */,
+				F466795A1EF281C4000EF804 /* SNRU_2.jpg in Resources */,
+				F466795E1EF28633000EF804 /* ic_add_box.png in Resources */,
 				F466794B1EF25CFA000EF804 /* Main.storyboard in Resources */,
+				F466795C1EF285A7000EF804 /* BGSNRU.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F46679581EF27DFD000EF804 /* AddnewuserViewController.swift in Sources */,
 				F46679481EF25CFA000EF804 /* ViewController.swift in Sources */,
 				F46679461EF25CFA000EF804 /* AppDelegate.swift in Sources */,
 			);

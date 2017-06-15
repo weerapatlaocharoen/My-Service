@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -18,14 +18,65 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BGSNRU.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="LwC-AK-h3m">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                            </imageView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OJi-hB-1f9">
+                                <rect key="frame" x="0.0" y="692" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="0.087670554577464782" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <barButtonItem title="Back" id="LBT-re-C2O"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="Sdw-t8-vVG"/>
+                                    <barButtonItem image="ic_add_box.png" id="iX1-r2-Cbw"/>
+                                </items>
+                            </toolbar>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="h6R-lv-b5T">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem title="ราชภัฏสกลนคร" id="QFa-zv-gRM"/>
+                                </items>
+                            </navigationBar>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="LwC-AK-h3m" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Alm-g5-BA6"/>
+                            <constraint firstItem="LwC-AK-h3m" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="MAI-rT-9Bd"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="LwC-AK-h3m" secondAttribute="bottom" id="WvE-QU-hLp"/>
+                            <constraint firstAttribute="trailing" secondItem="LwC-AK-h3m" secondAttribute="trailing" id="t96-rm-IJW"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-95" y="113"/>
+            <point key="canvasLocation" x="-627.536231884058" y="89.673913043478265"/>
+        </scene>
+        <!--Addnewuser-->
+        <scene sceneID="QRj-Bv-l0c">
+            <objects>
+                <viewController title="Addnewuser" id="slb-Dq-nXh" customClass="AddnewuserViewController" customModule="My_Service" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lEl-UG-ElC"/>
+                        <viewControllerLayoutGuide type="bottom" id="j6r-aP-69y"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="No5-hm-Iyq">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="K9M-ii-tQW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="84" y="95"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="BGSNRU.jpg" width="1526" height="2672"/>
+        <image name="ic_add_box.png" width="24" height="24"/>
+    </resources>
 </document>
