@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F40E68261EF372C70089C925 /* Snru_3.png in Resources */ = {isa = PBXBuildFile; fileRef = F40E68251EF372C70089C925 /* Snru_3.png */; };
+		F40E68281EF374880089C925 /* SNRUcar-booking-logo1-m.png in Resources */ = {isa = PBXBuildFile; fileRef = F40E68271EF374880089C925 /* SNRUcar-booking-logo1-m.png */; };
+		F40E682A1EF3754D0089C925 /* it-maintenance.png in Resources */ = {isa = PBXBuildFile; fileRef = F40E68291EF3754D0089C925 /* it-maintenance.png */; };
 		F46679461EF25CFA000EF804 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46679451EF25CFA000EF804 /* AppDelegate.swift */; };
 		F46679481EF25CFA000EF804 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46679471EF25CFA000EF804 /* ViewController.swift */; };
 		F466794B1EF25CFA000EF804 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F46679491EF25CFA000EF804 /* Main.storyboard */; };
@@ -21,6 +24,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F40E68251EF372C70089C925 /* Snru_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Snru_3.png; path = ../../../../Desktop/Snru_3.png; sourceTree = "<group>"; };
+		F40E68271EF374880089C925 /* SNRUcar-booking-logo1-m.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "SNRUcar-booking-logo1-m.png"; path = "../../../../Desktop/SNRUcar-booking-logo1-m.png"; sourceTree = "<group>"; };
+		F40E68291EF3754D0089C925 /* it-maintenance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "it-maintenance.png"; path = "../../../../Desktop/it-maintenance.png"; sourceTree = "<group>"; };
 		F46679421EF25CFA000EF804 /* My Service.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Service.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F46679451EF25CFA000EF804 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F46679471EF25CFA000EF804 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +72,9 @@
 		F46679441EF25CFA000EF804 /* My Service */ = {
 			isa = PBXGroup;
 			children = (
+				F40E68291EF3754D0089C925 /* it-maintenance.png */,
+				F40E68271EF374880089C925 /* SNRUcar-booking-logo1-m.png */,
+				F40E68251EF372C70089C925 /* Snru_3.png */,
 				F46679611EF28887000EF804 /* bbb.jpg */,
 				F466795F1EF2877B000EF804 /* iphon6bg.png */,
 				F466795D1EF28633000EF804 /* ic_add_box.png */,
@@ -145,8 +154,11 @@
 				F466794D1EF25CFA000EF804 /* Assets.xcassets in Resources */,
 				F466795A1EF281C4000EF804 /* SNRU_2.jpg in Resources */,
 				F466795E1EF28633000EF804 /* ic_add_box.png in Resources */,
+				F40E68261EF372C70089C925 /* Snru_3.png in Resources */,
 				F46679621EF28887000EF804 /* bbb.jpg in Resources */,
 				F466794B1EF25CFA000EF804 /* Main.storyboard in Resources */,
+				F40E682A1EF3754D0089C925 /* it-maintenance.png in Resources */,
+				F40E68281EF374880089C925 /* SNRUcar-booking-logo1-m.png in Resources */,
 				F46679601EF2877B000EF804 /* iphon6bg.png in Resources */,
 				F466795C1EF285A7000EF804 /* BGSNRU.jpg in Resources */,
 			);
@@ -325,6 +337,7 @@
 				F46679561EF25CFA000EF804 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

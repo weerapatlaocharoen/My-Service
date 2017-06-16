@@ -11,10 +11,12 @@ import UIKit
 class ViewController: UIViewController {
     
     
-    
-    
+    //Implicit
+    var myString = " "
     
 
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
        
@@ -32,7 +34,7 @@ class ViewController: UIViewController {
             
             if error != nil {
             
-            print("Error ==>\(error)")
+            print("Error")
             
             }
             else{

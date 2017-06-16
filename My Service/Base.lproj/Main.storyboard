@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="slb-Dq-nXh">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -12,7 +12,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="My_Service" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ViewController" id="BYZ-38-t0r" customClass="ViewController" customModule="My_Service" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -21,11 +21,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" ambiguous="YES" barStyle="black" translatesAutoresizingMaskIntoConstraints="NO" id="OJi-hB-1f9">
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" alpha="0.80000000000000004" contentMode="scaleToFill" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OJi-hB-1f9">
                                 <rect key="frame" x="0.0" y="692" width="414" height="44"/>
                                 <color key="backgroundColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <items>
-                                    <barButtonItem title="Back" id="LBT-re-C2O"/>
+                                    <barButtonItem systemItem="compose" id="LBT-re-C2O"/>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="Sdw-t8-vVG"/>
                                     <barButtonItem systemItem="fastForward" id="iX1-r2-Cbw">
                                         <connections>
@@ -34,35 +34,59 @@
                                     </barButtonItem>
                                 </items>
                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="barTintColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </toolbar>
-                            <navigationBar contentMode="scaleToFill" ambiguous="YES" barStyle="blackTranslucent" translatesAutoresizingMaskIntoConstraints="NO" id="h6R-lv-b5T">
+                            <navigationBar contentMode="scaleToFill" barStyle="blackTranslucent" translatesAutoresizingMaskIntoConstraints="NO" id="h6R-lv-b5T">
                                 <rect key="frame" x="0.0" y="20" width="414" height="44"/>
                                 <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <items>
                                     <navigationItem title="มหาวิทยาลัยราชภัฏสกลนคร" id="QFa-zv-gRM"/>
                                 </items>
                             </navigationBar>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="bbb.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="tUz-jx-GFi">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bbb.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="kgn-Cg-yfg">
                                 <rect key="frame" x="0.0" y="64" width="414" height="628"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Snru_3.png" translatesAutoresizingMaskIntoConstraints="NO" id="cXh-VB-8xe">
+                                <rect key="frame" x="76" y="24" width="29" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="it-maintenance.png" translatesAutoresizingMaskIntoConstraints="NO" id="bUG-db-yqg">
+                                <rect key="frame" x="183" y="692" width="48" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="tUz-jx-GFi" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="3OV-kP-vb7"/>
-                            <constraint firstItem="OJi-hB-1f9" firstAttribute="top" secondItem="tUz-jx-GFi" secondAttribute="bottom" id="GpV-mY-NVo"/>
-                            <constraint firstItem="tUz-jx-GFi" firstAttribute="top" secondItem="h6R-lv-b5T" secondAttribute="bottom" id="VTC-qY-2oE"/>
-                            <constraint firstAttribute="trailing" secondItem="tUz-jx-GFi" secondAttribute="trailing" id="yaU-Tn-F9p"/>
+                            <constraint firstItem="h6R-lv-b5T" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="1r7-9a-qH0"/>
+                            <constraint firstAttribute="trailing" secondItem="OJi-hB-1f9" secondAttribute="trailing" id="3HS-A4-Xl5"/>
+                            <constraint firstAttribute="trailing" secondItem="h6R-lv-b5T" secondAttribute="trailing" id="MdM-WG-8tY"/>
+                            <constraint firstItem="h6R-lv-b5T" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="dXj-1H-JJt"/>
+                            <constraint firstItem="OJi-hB-1f9" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="fpb-Kj-wPE"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="OJi-hB-1f9" secondAttribute="bottom" id="iWD-Vf-Xta"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="searchDisplayController" destination="JYR-ZK-uqB" id="ZDV-sz-uri"/>
+                        <outlet property="userLabel" destination="kgn-Cg-yfg" id="jpt-kI-jaF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <searchDisplayController id="JYR-ZK-uqB">
+                    <connections>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="fWl-gX-6yj"/>
+                        <outlet property="searchContentsController" destination="BYZ-38-t0r" id="Y9e-P1-Cfz"/>
+                        <outlet property="searchResultsDataSource" destination="BYZ-38-t0r" id="rAH-Sb-fZl"/>
+                        <outlet property="searchResultsDelegate" destination="BYZ-38-t0r" id="NDI-e6-FcJ"/>
+                    </connections>
+                </searchDisplayController>
             </objects>
             <point key="canvasLocation" x="-1157.9710144927537" y="75.815217391304358"/>
         </scene>
         <!--Addnewuser-->
         <scene sceneID="QRj-Bv-l0c">
             <objects>
-                <viewController title="Addnewuser" id="slb-Dq-nXh" customClass="AddnewuserViewController" customModule="My_Service" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AddnewuserViewController" title="Addnewuser" id="slb-Dq-nXh" customClass="AddnewuserViewController" customModule="My_Service" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="lEl-UG-ElC"/>
                         <viewControllerLayoutGuide type="bottom" id="j6r-aP-69y"/>
@@ -71,10 +95,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" barStyle="black" translatesAutoresizingMaskIntoConstraints="NO" id="ZeF-SN-K1N">
+                            <imageView userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bbb.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="PYv-rn-CwZ">
+                                <rect key="frame" x="0.0" y="64" width="414" height="628"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.0" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Please Fill All Every Back" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cQU-7O-pPD">
+                                <rect key="frame" x="116" y="268" width="188.33333333333334" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.21767979452054795" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" alpha="0.80000000000000004" contentMode="scaleToFill" fixedFrame="YES" barStyle="black" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZeF-SN-K1N">
                                 <rect key="frame" x="0.0" y="692" width="414" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="1" alpha="0.19418878424657535" colorSpace="calibratedRGB"/>
                                 <items>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="2KI-L0-pgQ"/>
                                     <barButtonItem title="Save User to Server" id="dU1-PB-0j1">
@@ -85,6 +121,7 @@
                                     </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="25y-rX-9wS"/>
                                 </items>
+                                <color key="barTintColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </toolbar>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="User" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="R2w-f1-0Gb">
                                 <rect key="frame" x="86" y="164" width="226" height="30"/>
@@ -126,17 +163,24 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
+                        <outlet property="AlertLabel" destination="cQU-7O-pPD" id="9nc-R5-JFd"/>
                         <outlet property="txtName" destination="abR-Rs-baJ" id="uQp-sB-wHt"/>
                         <outlet property="txtpass" destination="5TO-cu-KUi" id="UCI-OT-rWV"/>
                         <outlet property="txtuser" destination="R2w-f1-0Gb" id="yQj-jZ-WUC"/>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="BackHome" id="q83-PO-dcv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="K9M-ii-tQW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-362" y="76"/>
+            <point key="canvasLocation" x="-362.31884057971018" y="75.815217391304358"/>
         </scene>
     </scenes>
     <resources>
+        <image name="Snru_3.png" width="160" height="196"/>
         <image name="bbb.jpg" width="1536" height="2048"/>
+        <image name="it-maintenance.png" width="386" height="436"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="q83-PO-dcv"/>
+    </inferredMetricsTieBreakers>
 </document>
